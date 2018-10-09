@@ -7,6 +7,7 @@ int main(int argc, char** argv){
 
   tf::TransformBroadcaster br;
   tf::Transform transform;
+
   ros::Rate rate(10.0);
 
   while (node.ok()){
